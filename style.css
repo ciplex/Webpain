@@ -20,9 +20,9 @@ header{
 }
 nav{
   position: relative;
-  left: 535px;
-  font-size: 9px;
-
+  left: 530px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
 }
 .aktif{
   color: #ff675f;
@@ -42,6 +42,5 @@ nav ul li{
 nav ul li a{
   text-decoration: none;
   color: #fff;
-  font-weight: 800;
-
+  font-size: 13px;
 }
