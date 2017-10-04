@@ -142,7 +142,9 @@ margin: 55px 10px;
   height: 860px;
 }
 h1.title{
-
+width: 300px;
+position: relative;
+left: 420px;
 color: #616161;
 font-size: 30px;
 font-weight: 900;
