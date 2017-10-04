@@ -161,7 +161,7 @@ p.typo{
   padding: 10px;
   border-radius: 3px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   font-size: 12px;
 }
@@ -172,7 +172,7 @@ p.typo{
   padding: 10px;
   border-radius: 3px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   font-size: 12px;
 }
@@ -183,7 +183,7 @@ p.typo{
   padding: 10px;
   border-radius: 3px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   font-size: 12px;
 }
@@ -194,9 +194,24 @@ p.typo{
   padding: 10px;
   border-radius: 3px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   font-size: 12px;
+}
+@@media
+(-webkit-min-device-pixel-ratio: 2)(min-resolution :192dpi){
+  .btn-all{
+    font-weight: 900;
+  }
+  .btn-graphic{
+    font-weight: 900;
+  }
+  .btn-illustration{
+    font-weight: 900;
+  }
+  .btn-motion{
+    font-weight: 900;
+  }
 }
 .btn{
   margin: auto;
