@@ -138,13 +138,11 @@ margin: 55px 10px;
 }
 #feature{
   margin: auto;
-  width: 85%;
+  width: 70%;
   height: 860px;
 }
 h1.title{
-width: 300px;
-position: relative;
-left: 420px;
+text-align: center;
 color: #616161;
 font-size: 30px;
 font-weight: 900;
@@ -177,7 +175,6 @@ p.typo{
   font-weight: bold;
   text-transform: uppercase;
   font-size: 12px;
-  margin-left: 15px;
 }
 .btn-illustration{
   color: white;
@@ -189,7 +186,6 @@ p.typo{
   font-weight: bold;
   text-transform: uppercase;
   font-size: 12px;
-  margin-left: 12px;
 }
 .btn-motion{
   color: white;
@@ -201,22 +197,20 @@ p.typo{
   font-weight: bold;
   text-transform: uppercase;
   font-size: 12px;
-  margin-left: 25px;
 }
 .btn{
   margin: auto;
-  max-width: 50%;
+  max-width: 34%;
   margin-top: 70px;
   margin-bottom: 20px;
-  display: flex;
 }
 .gallery{
   width: 23%;
   height: 170px;
   float: left;
-  margin: 1px 4px 60px 15px;
+  margin: 1px 4px 37px 13px;
 }
-.parrent-gallery{
-  max-width: 100%;
-  height: 593px;
+.gallery img{
+  width: 105%;
+  height: 200px;
 }
