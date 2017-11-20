@@ -62,7 +62,7 @@ body{
   padding: 35px 0;
 }
 /* container */
-.container::before,
+/*.container::before,
 .container::after{
   content: "";
   clear: both;
@@ -71,15 +71,16 @@ body{
   display: table;
 }
 /* main nav */
-.container{
+/*.container{
   width: 1140px;
   margin: auto;
-}
-.colom-4{
+}*/
+/*.colom-4{
 	max-width: 25%;
 	width: 100%;
 	float: left;
-}
+
+}*/
 .logo{
   float: left;
 }
@@ -151,6 +152,14 @@ body{
 #services{
 	background-color: #F6F6F6;
 	padding: 80px 0;
+	@media screen and (max-width: 320px){
+		.colom-4{
+			width: 10px;
+		}
+		.services-content{
+			width: 10px;
+		}
+	}
 }
 .service-content{
 	text-align: center;
